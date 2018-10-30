@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head><Title>Formular Bootstrap</title>
+      <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	  <script src ="bootstrap/js/jquery.min.js"></script>
+	  <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+   <div class="container">
+  <h5>FORM</h5>
+  <form>
+  <div class="form-group">
+    <label for="exampleInputName">Name</label>
+    <input type="name" class="form-control" id="exampleName" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+  <label for="exampleRadioAge">Age</label><br>
+  <input type="radio" name="age" value="under 13"> Under 13<br>
+  <input type="radio" name="age" value="13 or older"> 13 or older<br>
+  </div>
+  <div class="form-group">
+  <label for="exampleTextareaBiography">Biography:</label><br>
+  <textarea name="message" class="form-control" id="exampleTexatreaBiography" rows="10" cols="30"></textarea>
+  </div>
+  <div class="form-group">
+  <label for="exampleSelectJobRole">Job role:</label><br>
+  <select name="jobs" class="form-control" id="exampleSelectJobRole" cols="30">
+    <option value="Front-End Developer">Front-End Developer</option>
+    <option value="Back-End Developer">Back-End Developer</option>
+    <option value="Web Designer">Web Designer</option>
+  </select>
+  </div>
+  <div class="form-group">
+  <label for="exampleCheckboxInterests">Interests:</label><br>
+  <input type="checkbox" name="interest1" value="Development">Development
+<br>
+<input type="checkbox" name="interest2" value="Design">Design 
+<br>
+<input type="checkbox" name="interest3" value="Business">Business 
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+  <div class="form-group">        
+        <button type="submit" class="btn btn-default">Sign Up</button>
+      </div>
+</form>
+</div>
+</body>
+</html>
